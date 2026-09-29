@@ -1,9 +1,9 @@
 cask "marky" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.8.10"
-  sha256 arm:   "79e75a2567461d9ba4cf65dd7bb8585b01a6ee2b4712b187076d39cac3977f4b",
-         intel: "39521bca9c4abeab495f281975719008511ae6fe5c5869df2f9817312bd3b87b"
+  version "1.8.11"
+  sha256 arm:   "23e69e20ca98f134b15ca47ea907ff5d93383c01f1c9df2259e5968a2b9cf2e5",
+         intel: "b66579a04406d730a69954006367c0b6ecd8683760a39d05690ab1848e06d770"
 
   url "https://github.com/amiralibg/marky/releases/download/v#{version}/Marky_#{version}_#{arch}.dmg"
   name "Marky"
